@@ -1,0 +1,240 @@
+﻿        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Libre Franklin', sans-serif;
+        }
+        p {
+             color: #6c6c6c;
+             font-size: 14px;
+         }
+         
+        .h2 {
+            font-family: Pacifico, sans-serif;
+        }
+
+        .marginemin {
+            margin-top: -17px;
+        }
+        .marginemin1 {
+            margin-bottom: -17px;
+        }
+        .canvasbu {
+    border: none;
+}
+        .circle {
+            border-radius: 200px 200px;
+        }
+        .marginimg{
+            margin-top:-100px;
+
+            width:250px;
+            height:470px;
+            z-index:20000;
+        }
+        .viewanchor{
+            color:black !important;
+        }
+        .viewanchor:hover{
+            color:#090909;
+        }
+         h4 {
+            font-size: 13px;
+            line-height: 23px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+         a i {
+            color: #6c6c6c;
+            font-size: 20px;
+        }
+        .tst {
+                background-color: #f5f5f5;
+                height: 220px;
+            }
+         .display {
+             display: inline-block;
+             width: 32px;
+             height: 32px;
+             line-height:28px;
+             border: 1px solid #dfdfdf;
+         }
+
+         .display:hover {
+              border: 1px solid #752b2c;
+         }
+
+         .display:hover i {
+             color: black;
+             font-weight: bold;
+         }
+
+        .bg6 {
+            background-color: #f8f8f8;
+            border-top: 1px solid #ebebeb;
+            border-bottom : 1px solid #ebebeb;
+        }
+
+        .bg1 {
+            background-image: url('../img/5bc26c68ca643a35ff2e403f_scott-webb-268893-unsplash (1).jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .bg2 {
+            background-color: #e4b366;
+            width: 40%;
+            border: 30px solid #d8a961;
+        }
+        
+        .bg3 {
+            background-color: #f05b10;
+            width: 40%;
+            border: 30px solid #e4550f;
+        }
+
+        .bg4 {
+            background-color: #a21010;
+            width: 40%;
+            border: 30px solid #9b0f10;
+        }
+
+        .bg5 {
+            background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0.89) 13%, hsla(0, 0%, 100%, 0) 57%), url('../img/5bb966fd82df351adbb449c6_raul-cacho-oses-779595-unsplash-p-3200.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bg7 {
+            background-image: linear-gradient(90deg, #f8f6f4 34%, transparent), url('../img/bg2.jpg');
+            background-position: 0px 0px, 0px 50%;
+            background-size: auto, cover;
+            background-repeat: repeat, no-repeat;
+        }
+        .bg9 {
+            height :200px;
+            background-image: url('../img/5bb9649228dfc366d4954146_alisher-sharip-117976-unsplash-p-3200.jpeg');
+            background-position: 0px 51%;
+            background-size: cover;
+        }
+
+        .bg11 {
+            background-color: #ebb96a;
+        }
+
+        .bxl-telegram {
+    font-size: 48px;
+}
+
+        .subs {
+    background-color: #000;
+    border: none;
+    box-shadow: none;
+    height: 45px;
+    transition: all 400ms ease;
+    font-size: 12px;
+    margin-left: -38px;
+}
+
+        .subs:hover {
+        background-color: #ac1313;
+    }
+
+        .enterinp {
+            height: 45px;
+            border-radius: unset;
+        }
+
+        .sign {
+            color: #a1a1a1;
+            cursor: pointer;
+        }
+
+        .form-check-input {
+    box-shadow: none;
+}
+
+        .form-check-input:checked {
+        background-color: #8534ff;
+    }
+
+        .navlinks {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+
+
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+            background: transparent;
+            color: #ac1313 !important;
+        }
+
+        .act {
+            color: #ac1313;
+            font-family: 'Playfair Display';
+            font-size: 68px;
+        }
+
+        .red {
+            color: #d77474;
+            font-family: Poppins, sans-serif;
+        }
+
+        .scale {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+            .scale img {
+                width: 100%;
+                transform: scale(1);
+                transition: 0.3s ease-out;
+            }
+
+            .scale:hover img {
+                transform: scale(1.1);
+                width: 100%;
+            }
+
+        .nav-link {
+            border-top: 1px solid #dcdcdc;
+            margin-top: -1px;
+        }
+        @media screen and (max-width:790px) {
+            .subs {
+        margin-left: 0;
+    }
+
+            header .navbar-nav > li {
+        border-bottom: 1px solid #ccc5c5;
+    }
+        }
+        @media screen and (min-width:991px) {
+            .navbar-light {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+    }
+            .borheader {
+                border-bottom: 0.5px solid #dedede !important;
+            }
+            .navepad {
+        margin: 0 20px !important;
+    }
+        }
+        @media screen and (max-width:991px) {
+            .navepad {
+        padding-top: 16px !important;
+        padding-bottom: 18px !important;
+    }
+            .act {
+                font-size: 30px;
+            }
+
+        }
